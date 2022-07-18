@@ -1,0 +1,295 @@
+
+
+
+/* .............................................
+    navigation header
+   ..............................................  */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+
+
+}
+
+.nav_box a{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(55, 50, 50);
+}
+
+/* .............................................
+    Start journey Page first page
+   ..............................................  */
+
+   .start_journey_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+   }
+
+
+   .left_journey{
+    width: 50%;
+   }
+
+   .right_journey{
+   
+    background-image: url(./images/Circle\ design.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+   }
+   .camera{
+    width: 300px;
+    height: 300px;
+
+   }
+
+
+   .jorney_size{
+    font-size: 52px;
+    
+  
+   }
+
+   .prebook_btn{
+    padding: 10px;
+    font-size: 18px;
+   }
+
+
+   /* .............................................
+    different brands  section
+   ..............................................  */
+
+
+
+
+   .brands_container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  
+    justify-content: center;
+    align-items: center;
+    margin: 100px 65px;
+   }
+
+   /* .............................................
+    Popular collections
+   ..............................................  */
+
+.popular_section{
+    
+    margin: 0px 196px;
+   
+}
+
+   .pop_h2{
+    text-align: center;
+  
+   }
+
+   .popular_container{
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    
+  
+    grid-gap: 30px;
+    
+   }
+
+   .popular_container .popular_box img{
+    width: 100%;
+    height: 256px;
+    
+
+    
+   }
+   .fa-star ,.fa-star-half-stroke{
+    color: gold;
+   }
+
+   .World_wideText{
+    width: 196px;
+    height: 61px;
+    
+   }
+
+   .more{
+   
+    text-align: right;
+   }
+
+
+/* .............................................
+   Featured
+   ..............................................  */
+
+
+   .featured_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    margin: 100px 165px ;
+    
+   }
+   .feature_image{
+    width: 100%;
+    height: 270px;
+    border-radius: 8px;
+
+   }
+
+   .left_feature{
+    width: 30%;
+   
+   }
+   .right_feature{
+    width: 60%;
+  
+   }
+
+
+/* .............................................
+   Footer 
+   ..............................................  */
+
+   .foot{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   }
+
+   .footer_media_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+
+
+
+/* .............................................
+   screen for 576 px-->small device
+   ..............................................  */
+
+
+   @media screen and (max-width:576px) {
+    body{
+        
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0px;
+    }
+   .start_journey_container{
+    flex-direction: column;
+    margin: 0px;
+   }
+    .brands_container{
+       grid-template-columns: repeat(2,1fr); 
+       
+    }
+
+    .popular_container{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+
+    
+    .popular_section{
+        margin: 0px 10px;
+    }
+
+
+    .popular_box img{
+    width: 100%;
+   
+    
+   }
+   .popular_box{
+    margin: 10px;
+   }
+    
+    
+.jorney_size{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 20px;
+   
+    
+   
+
+    
+   }
+
+   .featured_container{
+    flex-direction: column;
+    margin: 15%;
+    
+   }
+
+   .right_feature{
+    width: 100%;
+    /* border: 5px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .left_feature{
+    width: 100%;
+    /* border: 5px solid #000; */
+    display: flex;
+    justify-content: center;
+   }
+
+   .left_journey{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+
+   }
+
+   .right_journey{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   
+   margin: 0 auto;
+   
+
+   }
+
+   .prebook_btn{
+    margin: 10px 50px;
+
+    font-size: 18px;
+   }
+
+
+   
+
+
+   }
+
+   
